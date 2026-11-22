@@ -222,20 +222,14 @@ export default function App() {
       <main className="page">
         <Routes>
           <Route path="/" element={<Home />} />
-          {/*{SECTIONS.map((s) => (
-            <Route
-              key={s.path}
-              path={`/${s.path}`}
-              element={<Section info={s} meta={meta} />}
-            />
-          ))}*/}
-          {SECTIONS.filter((s) => s.path === "projects").map((s) => (
+          {SECTIONS.map((s) => (
             <Route
               key={s.path}
               path={`/${s.path}`}
               element={<Section info={s} meta={meta} />}
             />
           ))}
+         
           <Route
             path="/admin"
             element={
