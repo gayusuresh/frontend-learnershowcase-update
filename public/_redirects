@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 /api/*  https://learnershowcase-backend.onrender.com/api/:splat  200
 /*      /index.html  200
+=======
+/api/*  https://learnershowcase-backend-new.onrender.com/api/:splat  200
+/*      /index.html  200
+>>>>>>> 251e00f (sixth)
